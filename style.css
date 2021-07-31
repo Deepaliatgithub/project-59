@@ -26,10 +26,13 @@ img {
     float: right;
     top: 10px;
     right: 30px;
+    left: 30px;
     cursor: pointer;
     color: black;
-    position: absolute;
+    position: fixed;
     z-index: 10;
+    text-align: left;
+    display: inline;
 }
 
 
@@ -37,9 +40,10 @@ img {
 .links:hover {
 
     background-color: dodgerblue;
+}
 
 
+#navigation li {
 
-
-
+    display: inline;
 }
