@@ -1,0 +1,45 @@
+head {
+    text-align: right;
+    font-size: 50px;
+}
+
+body {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+
+    padding-right: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    text-align: center;
+}
+
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+.links:hover {
+
+    background-color: dodgerblue;
+
+
+
+
+
+}
